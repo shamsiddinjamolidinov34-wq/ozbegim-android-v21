@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v21 -->
+    <string name="pref_hold">Кто выполняет двойное касание с удержанием (долгое нажатие, перетаскивание)</string>
+    <string name="pref_nav">Кто выполняет перемещение по экрану (навигацию)</string>
+    <string name="pref_delegation_info">Передача системе Android: как это работает</string>
+    <string name="pref_delegation_info_summary">O‘zbegim всегда продолжает читать экран в полную силу: эти настройки его не отключают. Если выбрать «Выполняет система Android», двойное касание и удержание выполняет сама система. Если оба действия переданы системе, работает и перетаскивание с удержанием (ползунки, перемещение элементов); если одно остаётся за O‘zbegim, переданное системе выполняется так, как это делает система. В навигации используются порядок, заданный приложением, и собственный порядок фокуса системы (Tab); при перемещении физической клавиатурой элементы тоже озвучиваются; если система не может перейти, O‘zbegim переходит сам. Если выбрать «O‘zbegim выполняет», всё это делает O‘zbegim (рекомендуется).</string>
+    <string name="pref_delegate_all_system">Передать всё системе Android</string>
+    <string name="pref_delegate_all_system_summary">Двойное касание, удержание и навигацию выполняет система. O‘zbegim продолжает читать</string>
+    <string name="pref_delegate_all_service">Вернуть всё O‘zbegim</string>
+    <string name="pref_delegate_all_service_summary">Все три действия выполняет O‘zbegim (по умолчанию)</string>
+    <string name="msg_delegate_all_system">Двойное касание, удержание и навигация переданы системе Android. O‘zbegim продолжает читать экран.</string>
+    <string name="msg_delegate_all_service">Двойное касание, удержание и навигация возвращены O‘zbegim.</string>
+    <string name="deleg_double_tap">Двойное касание</string>
+    <string name="deleg_hold">Двойное касание с удержанием</string>
+    <string name="deleg_nav">Навигация</string>
+    <string name="deleg_who_service">O‘zbegim</string>
+    <string name="deleg_who_system">Система Android</string>
+    <string name="details_cat_status">Объявления о состоянии системы</string>
+    <string name="ann_charger">Объявлять подключение и отключение зарядки</string>
+    <string name="ann_charger_summary">Озвучивается вместе с процентом заряда</string>
+    <string name="ann_ringer">Объявлять смену режима звука</string>
+    <string name="ann_ringer_summary">Озвучивается при переходе в беззвучный режим, режим вибрации или звуковой режим</string>
+    <string name="ann_orientation">Объявлять поворот экрана</string>
+    <string name="ann_orientation_summary">Озвучивается при переходе в альбомную или книжную ориентацию</string>
+    <string name="ann_screen">Объявлять включение экрана и разблокировку</string>
+    <string name="ann_screen_summary">Произносит «Экран включён» и «Разблокировано»</string>
+    <string name="tb_cat_style">Как читается время, и инструкции</string>
+    <string name="tb_time_style">Как читать время</string>
+    <string name="tb_style_1">Пример 1: %1$s</string>
+    <string name="tb_style_2">Пример 2: %1$s</string>
+    <string name="tb_style_hear_1">Прослушать пример 1</string>
+    <string name="tb_style_hear_2">Прослушать пример 2</string>
+    <string name="tb_guide_24_title">Чтение в 24-часовой системе</string>
+    <string name="tb_guide_24">13:30 можно прочитать двумя способами. Пример 1: «%1$s» Пример 2: «%2$s» В целый час произносится только час: «%3$s»</string>
+    <string name="tb_guide_12_title">Чтение в 12-часовой системе</string>
+    <string name="tb_guide_12">1:30 днём можно прочитать двумя способами. Пример 1: «%1$s» Пример 2: «%2$s» Произносятся часы от 1 до 12, перед ними добавляется время суток (на рассвете, утром, днём, вечером, ночью). В целый час: «%3$s»</string>
+    <string name="tb_guide_notes_title">Примечание</string>
+    <string name="tb_guide_notes">В примере 2 для минут меньше 10 произносится «ноль»: «%1$s» Объявление звучит на языке системы; если голосовой пакет на другом языке, то на языке голосового пакета (узбекский, русский или английский). Текущий язык объявлений: %2$s. То же правило действует для объявления батареи.</string>
+    <string name="ann_lang_uz">узбекский (латиница)</string>
+    <string name="ann_lang_uz_cyrl">узбекский (кириллица)</string>
+    <string name="ann_lang_ru">русский</string>
+    <string name="ann_lang_en">английский</string>
+    <string-array name="tb_style_entries">
+        <item>Пример 1</item>
+        <item>Пример 2</item>
+    </string-array>
+</resources>

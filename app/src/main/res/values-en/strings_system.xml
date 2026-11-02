@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v21 -->
+    <string name="pref_hold">Who performs double-tap-and-hold (long press, dragging)</string>
+    <string name="pref_nav">Who performs moving around the screen (navigation)</string>
+    <string name="pref_delegation_info">Handing over to the Android system: how it works</string>
+    <string name="pref_delegation_info_summary">O‘zbegim always keeps reading the screen at full power: these choices never switch it off. If you choose “The Android system performs it”, the system itself performs double-tap and hold. When both are given to the system, dragging while holding also works (sliders, moving items); if one stays with O‘zbegim, the one given to the system is performed the way the system does it. For navigation, the order declared by the app and the system’s own focus order (Tab) are used, and moving with a physical keyboard is read aloud; if the system cannot move, O‘zbegim moves by itself. If you choose “O‘zbegim performs it”, O‘zbegim does all of this itself (recommended).</string>
+    <string name="pref_delegate_all_system">Hand everything over to the Android system</string>
+    <string name="pref_delegate_all_system_summary">The system performs double-tap, hold and navigation. O‘zbegim keeps reading</string>
+    <string name="pref_delegate_all_service">Give everything back to O‘zbegim</string>
+    <string name="pref_delegate_all_service_summary">O‘zbegim performs all three (default)</string>
+    <string name="msg_delegate_all_system">Double-tap, hold and navigation were handed over to the Android system. O‘zbegim keeps reading the screen.</string>
+    <string name="msg_delegate_all_service">Double-tap, hold and navigation were given back to O‘zbegim.</string>
+    <string name="deleg_double_tap">Double-tap</string>
+    <string name="deleg_hold">Double-tap and hold</string>
+    <string name="deleg_nav">Navigation</string>
+    <string name="deleg_who_service">O‘zbegim</string>
+    <string name="deleg_who_system">Android system</string>
+    <string name="details_cat_status">System status announcements</string>
+    <string name="ann_charger">Announce when the charger is connected or disconnected</string>
+    <string name="ann_charger_summary">Spoken together with the battery percentage</string>
+    <string name="ann_ringer">Announce when the sound mode changes</string>
+    <string name="ann_ringer_summary">Spoken when you switch to silent, vibrate or sound mode</string>
+    <string name="ann_orientation">Announce when the screen rotates</string>
+    <string name="ann_orientation_summary">Spoken when you switch to landscape or portrait</string>
+    <string name="ann_screen">Announce when the screen turns on and when unlocked</string>
+    <string name="ann_screen_summary">Says “Screen on” and “Unlocked”</string>
+    <string name="tb_cat_style">How the time is read, and instructions</string>
+    <string name="tb_time_style">How the time is read</string>
+    <string name="tb_style_1">Example 1: %1$s</string>
+    <string name="tb_style_2">Example 2: %1$s</string>
+    <string name="tb_style_hear_1">Hear example 1</string>
+    <string name="tb_style_hear_2">Hear example 2</string>
+    <string name="tb_guide_24_title">Reading in the 24-hour system</string>
+    <string name="tb_guide_24">13:30 can be read in two ways. Example 1: “%1$s” Example 2: “%2$s” On the exact hour only the hour is spoken: “%3$s”</string>
+    <string name="tb_guide_12_title">Reading in the 12-hour system</string>
+    <string name="tb_guide_12">1:30 in the afternoon can be read in two ways. Example 1: “%1$s” Example 2: “%2$s” Hours 1 to 12 are spoken, preceded by the part of the day (dawn, morning, daytime, evening, night). On the exact hour: “%3$s”</string>
+    <string name="tb_guide_notes_title">Notes</string>
+    <string name="tb_guide_notes">In example 2, minutes below 10 are spoken with a leading zero: “%1$s” The announcement is spoken in the system language; if the voice pack is in another language, it is spoken in the voice pack’s language (Uzbek, Russian or English). Current announcement language: %2$s. The same rule applies to the battery announcement.</string>
+    <string name="ann_lang_uz">Uzbek (Latin)</string>
+    <string name="ann_lang_uz_cyrl">Uzbek (Cyrillic)</string>
+    <string name="ann_lang_ru">Russian</string>
+    <string name="ann_lang_en">English</string>
+    <string-array name="tb_style_entries">
+        <item>Example 1</item>
+        <item>Example 2</item>
+    </string-array>
+</resources>

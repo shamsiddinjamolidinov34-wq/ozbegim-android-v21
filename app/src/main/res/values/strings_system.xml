@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v21: Android tizimiga topshirish, tizim holati e'lonlari, soatni o'qish uslubi -->
+    <string name="pref_hold">Ikki marta bosib ushlab turishni (uzoq bosish, sudrash) kim bajaradi</string>
+    <string name="pref_nav">Ekranda harakatlanishni (navigatsiya) kim bajaradi</string>
+    <string name="pref_delegation_info">Android tizimiga topshirish: qanday ishlaydi</string>
+    <string name="pref_delegation_info_summary">O\'zbegim ekranni o\'qishda har doim to\'liq davom etadi: bu tanlovlar uni o\'chirmaydi. «Android tizimi bajaradi» tanlansa, ikki marta bosish va ushlab turishni tizimning o\'zi bajaradi. Ikkalasi ham tizimga berilsa, ushlab turib sudrash ham ishlaydi (slayder, elementni ko\'chirish); bittasi O\'zbegimda qolsa, tizimga berilgani tizim uslubida bajariladi. Navigatsiyada ilovaning o\'zi belgilagan tartib va tizimning fokus tartibi (Tab) ishlatiladi, jismoniy klaviatura bilan yurganda ham o\'qiladi; tizim yurolmasa, O\'zbegim o\'zi yuradi. «O\'zbegim bajaradi» tanlansa, bularni O\'zbegim o\'zi bajaradi (tavsiya etiladi).</string>
+    <string name="pref_delegate_all_system">Hammasini Android tizimiga berish</string>
+    <string name="pref_delegate_all_system_summary">Ikki marta bosish, ushlab turish va navigatsiyani tizim bajaradi. O\'zbegim o\'qishda davom etadi</string>
+    <string name="pref_delegate_all_service">Hammasini O\'zbegimga qaytarish</string>
+    <string name="pref_delegate_all_service_summary">Uchala amalni ham O\'zbegim bajaradi (standart)</string>
+    <string name="msg_delegate_all_system">Ikki marta bosish, ushlab turish va navigatsiya Android tizimiga berildi. O\'zbegim ekranni o\'qishda davom etadi.</string>
+    <string name="msg_delegate_all_service">Ikki marta bosish, ushlab turish va navigatsiya O\'zbegimga qaytarildi.</string>
+    <string name="deleg_double_tap">Ikki marta bosish</string>
+    <string name="deleg_hold">Ikki marta bosib ushlab turish</string>
+    <string name="deleg_nav">Navigatsiya</string>
+    <string name="deleg_who_service">O\'zbegim</string>
+    <string name="deleg_who_system">Android tizimi</string>
+    <string name="details_cat_status">Tizim holati e\'lonlari</string>
+    <string name="ann_charger">Quvvatlash ulanganda va uzilganda aytish</string>
+    <string name="ann_charger_summary">Zaryadlovchi ulanganda yoki uzilganda batareya foizi bilan aytiladi</string>
+    <string name="ann_ringer">Ovoz rejimi o\'zgarganda aytish</string>
+    <string name="ann_ringer_summary">Ovozsiz, tebranish yoki ovozli rejimga o\'tilganda aytiladi</string>
+    <string name="ann_orientation">Ekran burilganda aytish</string>
+    <string name="ann_orientation_summary">Gorizontal yoki vertikal holatga o\'tilganda aytiladi</string>
+    <string name="ann_screen">Ekran yoqilganda va qulf ochilganda aytish</string>
+    <string name="ann_screen_summary">«Ekran yoqildi» va «Qulf ochildi» deb aytiladi</string>
+    <string name="tb_cat_style">Soatni o\'qish uslubi va ko\'rsatmalar</string>
+    <string name="tb_time_style">Soat qanday o\'qilsin</string>
+    <string name="tb_style_1">1-misol: %1$s</string>
+    <string name="tb_style_2">2-misol: %1$s</string>
+    <string name="tb_style_hear_1">1-misolni eshitish</string>
+    <string name="tb_style_hear_2">2-misolni eshitish</string>
+    <string name="tb_guide_24_title">24 soatlik tizimda o\'qish</string>
+    <string name="tb_guide_24">13:30 ikki xil o\'qilishi mumkin. 1-misol: «%1$s» 2-misol: «%2$s» Aniq soatda faqat soat aytiladi: «%3$s»</string>
+    <string name="tb_guide_12_title">12 soatlik tizimda o\'qish</string>
+    <string name="tb_guide_12">Kunduzgi 1:30 ikki xil o\'qilishi mumkin. 1-misol: «%1$s» 2-misol: «%2$s» Soat 1 dan 12 gacha aytiladi, oldidan kun qismi (tongda, ertalab, kunduz, kechqurun, tunda) qo\'shiladi. Aniq soatda: «%3$s»</string>
+    <string name="tb_guide_notes_title">Eslatma</string>
+    <string name="tb_guide_notes">2-misolda daqiqa 10 dan kam bo\'lsa, «nol» aytiladi: «%1$s» E\'lon tizim tilida aytiladi; ovoz paketi boshqa tilda bo\'lsa, ovoz paketi tilida (o\'zbekcha, ruscha yoki inglizcha). Hozirgi e\'lon tili: %2$s. Shu qoida batareya e\'loniga ham tegishli.</string>
+    <string name="ann_lang_uz">o\'zbekcha (lotin)</string>
+    <string name="ann_lang_uz_cyrl">o\'zbekcha (kirill)</string>
+    <string name="ann_lang_ru">ruscha</string>
+    <string name="ann_lang_en">inglizcha</string>
+    <string-array name="tb_style_entries">
+        <item>1-misol</item>
+        <item>2-misol</item>
+    </string-array>
+    <string-array name="tb_style_values">
+        <item>passed</item>
+        <item>clock</item>
+    </string-array>
+</resources>

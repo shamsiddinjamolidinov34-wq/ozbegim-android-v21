@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v21 -->
+    <string name="pref_hold">Икки марта босиб ушлаб туришни (узоқ босиш, судраш) ким бажаради</string>
+    <string name="pref_nav">Экранда ҳаракатланишни (навигация) ким бажаради</string>
+    <string name="pref_delegation_info">Android тизимига топшириш: қандай ишлайди</string>
+    <string name="pref_delegation_info_summary">Ўзбегим экранни ўқишда ҳар доим тўлиқ давом этади: бу танловлар уни ўчирмайди. «Android тизими бажаради» танланса, икки марта босиш ва ушлаб туришни тизимнинг ўзи бажаради. Иккаласи ҳам тизимга берилса, ушлаб туриб судраш ҳам ишлайди (слайдер, элементни кўчириш); биттаси Ўзбегимда қолса, тизимга берилгани тизим услубида бажарилади. Навигацияда илованинг ўзи белгилаган тартиб ва тизимнинг фокус тартиби (Tab) ишлатилади, жисмоний клавиатура билан юрганда ҳам ўқилади; тизим юролмаса, Ўзбегим ўзи юради. «Ўзбегим бажаради» танланса, буларни Ўзбегим ўзи бажаради (тавсия этилади).</string>
+    <string name="pref_delegate_all_system">Ҳаммасини Android тизимига бериш</string>
+    <string name="pref_delegate_all_system_summary">Икки марта босиш, ушлаб туриш ва навигацияни тизим бажаради. Ўзбегим ўқишда давом этади</string>
+    <string name="pref_delegate_all_service">Ҳаммасини Ўзбегимга қайтариш</string>
+    <string name="pref_delegate_all_service_summary">Учала амални ҳам Ўзбегим бажаради (стандарт)</string>
+    <string name="msg_delegate_all_system">Икки марта босиш, ушлаб туриш ва навигация Android тизимига берилди. Ўзбегим экранни ўқишда давом этади.</string>
+    <string name="msg_delegate_all_service">Икки марта босиш, ушлаб туриш ва навигация Ўзбегимга қайтарилди.</string>
+    <string name="deleg_double_tap">Икки марта босиш</string>
+    <string name="deleg_hold">Икки марта босиб ушлаб туриш</string>
+    <string name="deleg_nav">Навигация</string>
+    <string name="deleg_who_service">Ўзбегим</string>
+    <string name="deleg_who_system">Android тизими</string>
+    <string name="details_cat_status">Тизим ҳолати эълонлари</string>
+    <string name="ann_charger">Қувватлаш уланганда ва узилганда айтиш</string>
+    <string name="ann_charger_summary">Зарядловчи уланганда ёки узилганда батарея фоизи билан айтилади</string>
+    <string name="ann_ringer">Овоз режими ўзгарганда айтиш</string>
+    <string name="ann_ringer_summary">Овозсиз, тебраниш ёки овозли режимга ўтилганда айтилади</string>
+    <string name="ann_orientation">Экран бурилганда айтиш</string>
+    <string name="ann_orientation_summary">Горизонтал ёки вертикал ҳолатга ўтилганда айтилади</string>
+    <string name="ann_screen">Экран ёқилганда ва қулф очилганда айтиш</string>
+    <string name="ann_screen_summary">«Экран ёқилди» ва «Қулф очилди» деб айтилади</string>
+    <string name="tb_cat_style">Соатни ўқиш услуби ва кўрсатмалар</string>
+    <string name="tb_time_style">Соат қандай ўқилсин</string>
+    <string name="tb_style_1">1-мисол: %1$s</string>
+    <string name="tb_style_2">2-мисол: %1$s</string>
+    <string name="tb_style_hear_1">1-мисолни эшитиш</string>
+    <string name="tb_style_hear_2">2-мисолни эшитиш</string>
+    <string name="tb_guide_24_title">24 соатлик тизимда ўқиш</string>
+    <string name="tb_guide_24">13:30 икки хил ўқилиши мумкин. 1-мисол: «%1$s» 2-мисол: «%2$s» Аниқ соатда фақат соат айтилади: «%3$s»</string>
+    <string name="tb_guide_12_title">12 соатлик тизимда ўқиш</string>
+    <string name="tb_guide_12">Кундузги 1:30 икки хил ўқилиши мумкин. 1-мисол: «%1$s» 2-мисол: «%2$s» Соат 1 дан 12 гача айтилади, олдидан кун қисми (тонгда, эрталаб, кундуз, кечқурун, тунда) қўшилади. Аниқ соатда: «%3$s»</string>
+    <string name="tb_guide_notes_title">Эслатма</string>
+    <string name="tb_guide_notes">2-мисолда дақиқа 10 дан кам бўлса, «нол» айтилади: «%1$s» Эълон тизим тилида айтилади; овоз пакети бошқа тилда бўлса, овоз пакети тилида (ўзбекча, русча ёки инглизча). Ҳозирги эълон тили: %2$s. Шу қоида батарея эълонига ҳам тегишли.</string>
+    <string name="ann_lang_uz">ўзбекча (лотин)</string>
+    <string name="ann_lang_uz_cyrl">ўзбекча (кирилл)</string>
+    <string name="ann_lang_ru">русча</string>
+    <string name="ann_lang_en">инглизча</string>
+    <string-array name="tb_style_entries">
+        <item>1-мисол</item>
+        <item>2-мисол</item>
+    </string-array>
+</resources>
